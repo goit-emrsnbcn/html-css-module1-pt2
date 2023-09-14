@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video and Audio</title>
+</head>
+<body>
+    <video 
+        poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640"
+        width="640"
+        height="500"
+        controls 
+        loop
+        preload="auto"
+    >
+        <source 
+            src="http://techslides.com/demos/sample-videos/small.webm"
+            type="vide/webm"
+        />
+        <source
+            src="http://techslides.com/demos/sample-videos/small.mp4"
+            type="video/mp4"
+        />
+        <source
+            src="http://techslides.com/demos/sample-videos/small.ogg"
+            type="video/ogg"
+        />
+
+    </video>
+
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg" />
+        <source src="song.ogg" type="audio/ogg" />
+    </audio>
+    
+    
+    
+    
+    <!-- 
+        src - url of the video
+        poster - is like a thumbnail if video is not loading or not playing yet
+        width - the width of the video 
+        height - the height of the video
+        controls - play, pause, button
+        autoplay - it would play the video as soon as it is available
+        loop - when video finished play again
+     -->
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw?si=g_Ut_hMIE9jmlvpN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
