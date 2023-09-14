@@ -1,14 +1,9 @@
-# HTML + CSS Module 1 Lesson 1
+# HTML + CSS Module 1 Lesson 2
 
 ### Topics Discussed:
 
--   Web Technologies
--   Tags and Attributes
--   HTML Document Structure
--   Semantics
--   Text markup
--   Images
--   Sectioning
--   Validation
--   Developer tools
--   Code style
+-   Tables
+-   Text Markup
+-   Character Entities
+-   Video and Audio
+-   Barbershop Markup
